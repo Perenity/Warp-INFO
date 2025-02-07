@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WARP SMP INFORMATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, #3a0ca3, #240046, #10002b);
+            background-size: 200% 200%;
+            animation: warpBackground 6s infinite alternate;
+            color: #E0F7FA;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @keyframes warpBackground {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        p, ul {
+            text-align: left;
+            margin: 10px 0;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WARP SMP INFO</h1>
+        <p>Welcome to the WARP SMP! Here you can discover all the information about this server.</p>
+
+        <h2>Warp SMP Plugin Overview</h2>
+        <p><strong>Gaining Points:</strong> Earn +1 Time Point for each player kill.</p>
+        <p><strong>Activation:</strong> Use shift + offhand binds to activate Time Anomaly abilities.</p>
+        <p><strong>Cooldown:</strong> All abilities have a 3-minute cooldown.</p>
+        
+        <h2>Time Anomaly Abilities:</h2>
+        <ul>
+            <li>+1 Point: Time Blink – Freeze players in a 3-block radius for 2 seconds.</li>
+            <li>+2 Points: Time Shift – Freeze players in a 3-block radius for 3 seconds.</li>
+            <li>+3 Points: Time Bubble – Freeze players in a 4-block radius for 4 seconds.</li>
+            <li>+4 Points: Time Burst – Freeze players in a 5-block radius for 5 seconds.</li>
+            <li>+5 Points: Time Mastery – Freeze players in a 6-block radius for 6 seconds.</li>
+        </ul>
+
+        <h2>Losing Time Points:</h2>
+        <p>Each death deducts 1 Time Point. Falling into negative points results in penalties:</p>
+        <ul>
+            <li>-1 Point: 10% speed reduction</li>
+            <li>-2 Points: 20% speed reduction</li>
+            <li>-3 Points: 30% speed reduction</li>
+            <li>-4 Points: 40% speed reduction</li>
+            <li>-5 Points: 50% speed reduction</li>
+            <li>-6 Points: Permanent ban from the SMP</li>
+        </ul>
+
+        <h2>Starting Items:</h2>
+        <p>Upon joining, you receive one of these breaks to counter freeze effects:</p>
+        <ul>
+            <li><strong>Chrono Shield:</strong> +8 hearts & Resistance II for 10 sec (Cooldown: 4 min)</li>
+            <li><strong>Eternal Strike:</strong> +2 Attack Damage & +50% Attack Speed for 8 sec (Cooldown: 4 min)</li>
+            <li><strong>Momentum Shift:</strong> Speed IV & Jump Boost III for 15 sec (Cooldown: 4 min)</li>
+            <li><strong>Temporal Surge:</strong> Strength II & Haste II for 15 sec (Cooldown: 4 min)</li>
+        </ul>
+    </div>
+</body>
+</html>
